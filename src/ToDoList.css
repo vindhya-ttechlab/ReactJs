@@ -1,0 +1,76 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(205, 114, 114, 0.1);
+    background-color: #f9f9f9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.input div {
+    display: flex;
+    flex-direction: column;
+}
+
+.input label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.input input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.input button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: flex-start;
+}
+
+.input button:hover {
+    background-color: #0056b3;
+}
+
+.tododata {
+    margin-top: 20px;
+}
+
+.tododata div {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.tododata h3 {
+    margin: 0;
+    color: #333;
+}
+
+.tododata p {
+    margin: 5px 0 0;
+    color: #666;
+}
