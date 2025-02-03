@@ -47,7 +47,7 @@ export default function ToDoList() {
                             </input>
                         </div> 
                         <div>
-                            <button onClick={handleAdd}>Add</button>
+                            <button onClick={handleAdd} >Add</button>
                         </div>
                     </div>
                     <div className='tododata-content'>
